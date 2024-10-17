@@ -25,3 +25,28 @@ body {
     text-wrap: balance;
   }
 }
+
+/* globals.css */
+
+html, body {
+  height: 100%;  /* Ensure body and html take the full height of the viewport */
+  margin: 0;     /* Remove default margins */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full viewport height */
+}
+
+main {
+  flex: 1;  /* Main takes up all available space, pushing the footer down */
+}
+
+footer {
+  background-color: #1e3a8a; /* Deep blue for footer */
+  padding: 20px;
+  text-align: center;
+  color: white;
+  width: 100%;
+}
